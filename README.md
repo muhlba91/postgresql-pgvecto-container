@@ -25,11 +25,11 @@ Instead of using the upstream [CloudNativePG container](https://github.com/cloud
 The container images are tagged according to CloudNativePG's [image tag requirements](https://cloudnative-pg.io/documentation/1.23/container_images/#image-tag-requirements_1).
 Additionally, `latest` and `<GIT_COMMIT_SHA>` tags are created which are **not** compatible with CloudNativePG!
 
-The tagging scheme is `<CLOUDNATIVEPG_POSTGRESQL_TAG>-<PGVECTO_TAG>-<RELEASE_TAG>` with:
+The tagging scheme is `<CLOUDNATIVEPG_POSTGRESQL_TAG>-<PGVECTO_TAG>[-<RELEASE_TAG>]` with:
 
 - `<CLOUDNATIVEPG_POSTGRESQL_TAG>`: the upstream [CloudNativePG container](https://github.com/cloudnative-pg/postgres-containers/pkgs/container/postgresql) version
 - `<PGVECTO_TAG>`: the [pgvecto.rs](https://github.com/tensorchord/pgvecto.rs/releases) version
-- `<RELEASE_TAG>`: the release version of this container (used to version internal changes)
+- `<RELEASE_TAG>`: the release version of this container (used to version internal changes; optional to specify)
 
 ---
 

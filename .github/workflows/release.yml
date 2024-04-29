@@ -73,6 +73,7 @@ jobs:
           tags: |
             ghcr.io/muhlba91/postgresql-pgvecto:latest
             ghcr.io/muhlba91/postgresql-pgvecto:${{ github.sha }}
+            ghcr.io/muhlba91/postgresql-pgvecto:${{ steps.from_tag.outputs.postgresql }}-${{ steps.from_tag.outputs.pgvecto }}
             ghcr.io/muhlba91/postgresql-pgvecto:${{ steps.from_tag.outputs.postgresql }}-${{ steps.from_tag.outputs.pgvecto }}-${{ needs.release.outputs.tag_name }}
           build-args: |
             CI_COMMIT_TIMESTAMP=${{ github.event.repository.updated_at }}
