@@ -1,0 +1,79 @@
+---
+name: Verify
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  conform:
+    runs-on: ubuntu-latest
+    name: Conform
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: siderolabs/conform@v0.1.0-alpha.27
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  lint:
+    runs-on: ubuntu-latest
+    name: Lint Dockerfile
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Lint Dockerfile
+        uses: hadolint/hadolint-action@v3.1.0
+        with:
+          dockerfile: Dockerfile
+
+  container:
+    runs-on: ubuntu-latest
+    name: Build Container Image
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup QEMU
+        uses: docker/setup-qemu-action@v3
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Get Upstream Tags
+        id: from_tag
+        run: |
+          POSTGRESQL_IMAGE=$(cat Dockerfile | grep 'FROM ghcr.io/cloudnative-pg/postgresql:')
+          POSTGRESQL_FROM_TAG=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2)
+          echo "postgresql=${POSTGRESQL_FROM_TAG}" >> "$GITHUB_OUTPUT"
+          PGVECTO_IMAGE=$(cat Dockerfile | grep 'FROM tensorchord/pgvecto-rs-binary:')
+          PGVECTO_FROM_TAG=$(echo $PGVECTO_IMAGE | cut -d'-' -f4)
+          echo "pgvecto=${PGVECTO_FROM_TAG}" >> "$GITHUB_OUTPUT"
+
+      - name: Build Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: false
+          tags: |
+            ghcr.io/muhlba91/postgresql-pgvecto:latest
+            ghcr.io/muhlba91/postgresql-pgvecto:${{ github.sha }}
+          build-args: |
+            CI_COMMIT_TIMESTAMP=${{ github.event.repository.updated_at }}
+            CI_COMMIT_SHA=${{ github.sha }}
+            CI_COMMIT_TAG=latest
+            CI_UPSTREAM_VERSION=${{ steps.from_tag.outputs.postgresql }}-${{ steps.from_tag.outputs.pgvecto }}
