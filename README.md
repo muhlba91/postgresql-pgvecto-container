@@ -11,7 +11,8 @@ A container integrating [pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) 
 ---
 
 > [!WARNING]
-> **This container is based on personal needs, in particular its usage with [Immich](https://immich.app)!**
+> **This container is heavily based on personal needs!**
+>
 > The chosen upstream versions follow the [Immich requirements](https://github.com/immich-app/immich/blob/main/docker/docker-compose.yml).
 
 ---
