@@ -8,7 +8,7 @@ ARG CI_UPSTREAM_VERSION
 FROM tensorchord/pgvecto-rs-binary:pg15-v0.2.1-${TARGETARCH} as binary
 
 # main container
-FROM ghcr.io/cloudnative-pg/postgresql:15.6-16
+FROM ghcr.io/cloudnative-pg/postgresql:16.2-16
 
 LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <daniel.muehlbachler@niftyside.com>"
 LABEL org.opencontainers.image.vendor="Daniel Muehlbachler-Pietrzykowski"
