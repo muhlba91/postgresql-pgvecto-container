@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.1...v1.1.2) (2024-05-01)
+
+
+### Bug Fixes
+
+* **ci:** fix upstream tagging ([787e13a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/787e13a1d578eb2e8a11c9715e2462627186bacf))
+
 ## [1.1.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.0...v1.1.1) (2024-05-01)
 
 
