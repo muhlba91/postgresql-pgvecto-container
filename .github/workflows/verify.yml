@@ -57,7 +57,7 @@ jobs:
         id: from_tag
         run: |
           POSTGRESQL_IMAGE=$(cat Dockerfile | grep 'FROM ghcr.io/cloudnative-pg/postgresql:')
-          POSTGRESQL_FROM_TAG=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2)
+          POSTGRESQL_FROM_TAG=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2 | cut -d'@' -f1)
           echo "postgresql=${POSTGRESQL_FROM_TAG}" >> "$GITHUB_OUTPUT"
           PGVECTO_IMAGE=$(cat Dockerfile | grep 'FROM tensorchord/pgvecto-rs-binary:')
           PGVECTO_FROM_TAG=$(echo $PGVECTO_IMAGE | cut -d'-' -f4)
