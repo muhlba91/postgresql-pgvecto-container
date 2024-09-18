@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.4](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.3...v1.1.4) (2024-09-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to 692973e ([05cbc07](https://github.com/muhlba91/postgresql-pgvecto-container/commit/05cbc07f5084fd326549acbf412c934f8688926e))
+* **deps:** update docker/build-push-action action to v6 ([1b90296](https://github.com/muhlba91/postgresql-pgvecto-container/commit/1b90296f46e16b7d17ccd7c2ee2bedfe34474de8))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql docker tag to v15.8 ([22a433c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/22a433c9dd805e1f0b347ac1abbc83a033838b50))
+
 ## [1.1.3](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.2...v1.1.3) (2024-05-20)
 
 
