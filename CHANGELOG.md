@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.4...v1.1.5) (2024-10-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to eef6144 ([23b1e2f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/23b1e2fd8d7fcdd4800b6db6f9885fbb6a7e9d01))
+
 ## [1.1.4](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.3...v1.1.4) (2024-09-18)
 
 
