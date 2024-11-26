@@ -67,7 +67,7 @@ jobs:
           PGVECTO_FROM_TAG=$(echo $PGVECTO_IMAGE | cut -d'-' -f4)
           echo "pgvecto=${PGVECTO_FROM_TAG}" >> "$GITHUB_OUTPUT"
 
-      - uses: docker/build-push-action@4f58ea79222b3b9dc2c8bbdd6debcef730109a75 # v6.9.0
+      - uses: docker/build-push-action@48aba3b46d1b1fec4febb7c5d0c644b249a11355 # v6.10.0
         with:
           context: .
           platforms: linux/amd64,linux/arm64
