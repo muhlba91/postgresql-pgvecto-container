@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v2.0.0...v2.0.1) (2025-05-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.26.0 ([2bcba8a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2bcba8ae99fdefcd49718c4cc96f391ca28f4f2d))
+
 ## [2.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.4...v2.0.0) (2025-05-11)
 
 
