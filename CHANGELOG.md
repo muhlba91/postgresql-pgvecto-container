@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v2.0.0...v2.0.1) (2025-06-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v4.7.1 ([e0bd687](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e0bd687f0010a6ec7143d5d20ce1f6130cfb9608))
+* **deps:** update docker/build-push-action action to v6.17.0 ([ab945b9](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ab945b9d6a547f7b059bd5b85da3cca44ca40aac))
+* **deps:** update docker/build-push-action action to v6.18.0 ([8bc282b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/8bc282b10d72bd9e95727dc76b9c3194b190e0f2))
+* **deps:** update github/codeql-action action to v3.28.18 ([b747a8c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b747a8cdc2b571324065e4533423cff452966495))
+* **deps:** update github/codeql-action action to v3.28.19 ([b821d1b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b821d1b1521479f73b5771147cfba454cac9d4db))
+* **deps:** update ossf/scorecard-action action to v2.4.2 ([fd77e82](https://github.com/muhlba91/postgresql-pgvecto-container/commit/fd77e823a2653fb9631144d9a8651ca561434f13))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.26.0 ([2bcba8a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2bcba8ae99fdefcd49718c4cc96f391ca28f4f2d))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.27.0 ([89c279c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/89c279cd98c1350d2055f6e7c82682a59c3ac46a))
+
 ## [2.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.4...v2.0.0) (2025-05-11)
 
 
