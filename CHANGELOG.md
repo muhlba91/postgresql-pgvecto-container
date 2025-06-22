@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v3.0.0...v3.0.1) (2025-06-22)
+
+
+### Bug Fixes
+
+* fix vchord version detection ([693e61b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/693e61b4da641f1af9fa89c1a3b5ec207dfbe4e8))
+
 ## [3.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v2.0.0...v3.0.0) (2025-06-22)
 
 
