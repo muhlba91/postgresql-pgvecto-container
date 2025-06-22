@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v2.0.0...v3.0.0) (2025-06-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* adds new extension vchord
+
+### Features
+
+* integrate vectorchord for migration ([a4f1aff](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a4f1aff995268d1d2f771d88d669f22b5fb80049))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v4.7.1 ([e0bd687](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e0bd687f0010a6ec7143d5d20ce1f6130cfb9608))
+* **deps:** update docker/build-push-action action to v6.17.0 ([ab945b9](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ab945b9d6a547f7b059bd5b85da3cca44ca40aac))
+* **deps:** update docker/build-push-action action to v6.18.0 ([8bc282b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/8bc282b10d72bd9e95727dc76b9c3194b190e0f2))
+* **deps:** update docker/setup-buildx-action action to v3.11.0 ([1fa041b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/1fa041bc04c3fe1c3417f449000327a4de9c990d))
+* **deps:** update docker/setup-buildx-action action to v3.11.1 ([a9b281d](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a9b281d74eb02e9537f0b6c7ddda5190a27f79e7))
+* **deps:** update github/codeql-action action to v3.28.18 ([b747a8c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b747a8cdc2b571324065e4533423cff452966495))
+* **deps:** update github/codeql-action action to v3.28.19 ([b821d1b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b821d1b1521479f73b5771147cfba454cac9d4db))
+* **deps:** update github/codeql-action action to v3.29.0 ([4f3dfd7](https://github.com/muhlba91/postgresql-pgvecto-container/commit/4f3dfd7f001412b735bc48bde8e28a06e2631c8b))
+* **deps:** update ossf/scorecard-action action to v2.4.2 ([fd77e82](https://github.com/muhlba91/postgresql-pgvecto-container/commit/fd77e823a2653fb9631144d9a8651ca561434f13))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.26.0 ([2bcba8a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2bcba8ae99fdefcd49718c4cc96f391ca28f4f2d))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.27.0 ([89c279c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/89c279cd98c1350d2055f6e7c82682a59c3ac46a))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.27.1 ([e3e5238](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e3e52387e59cdcbf843d12b0f99ab357ed57cc27))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.27.2 ([5c4f834](https://github.com/muhlba91/postgresql-pgvecto-container/commit/5c4f8344277320b75aa07d74cb67fdcc2e094eda))
+* **deps:** update step-security/harden-runner action to v2.12.1 ([98f5107](https://github.com/muhlba91/postgresql-pgvecto-container/commit/98f510708676de732cd7b31aea75e6479c27ca04))
+
 ## [2.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v1.1.4...v2.0.0) (2025-05-11)
 
 
