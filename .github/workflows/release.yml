@@ -64,7 +64,7 @@ jobs:
           POSTGRESQL_FROM_TAG=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2 | cut -d'@' -f1)
           echo "postgresql=${POSTGRESQL_FROM_TAG}" >> "$GITHUB_OUTPUT"
           VECTORCHORD_IMAGE=$(cat Dockerfile | grep 'FROM tensorchord/vchord-binary:')
-          VECTORCHORD_FROM_TAG=$(echo $VECTORCHORD_IMAGE | cut -d'-' -f4)
+          VECTORCHORD_FROM_TAG=$(echo $VECTORCHORD_IMAGE | cut -d'-' -f3)
           echo "vchord=${VECTORCHORD_FROM_TAG}" >> "$GITHUB_OUTPUT"
 
       - uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6.18.0
