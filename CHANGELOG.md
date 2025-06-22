@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v3.0.1...v4.0.0) (2025-06-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* major postgresql upgrade to v17
+
+### Features
+
+* upgrade postgresql to v17 ([176c2bf](https://github.com/muhlba91/postgresql-pgvecto-container/commit/176c2bfdb0e6be425bf79a4d154161d45bb6aff6))
+
 ## [3.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v3.0.0...v3.0.1) (2025-06-22)
 
 
