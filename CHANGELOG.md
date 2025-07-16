@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v4.0.0...v4.0.1) (2025-07-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update github/codeql-action action to v3.29.1 ([c2cd4e7](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c2cd4e724fc369058b88de4ca806ed9180b9e53a))
+* **deps:** update github/codeql-action action to v3.29.2 ([e9baa9f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e9baa9f99a89a71d556b2ad5ba562a972c1d9df9))
+* **deps:** update step-security/harden-runner action to v2.12.2 ([008443e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/008443ee6ab1de9d27b8da720456c0b7e2abc98c))
+* **deps:** update step-security/harden-runner action to v2.13.0 ([414b1a3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/414b1a39a02c1a498ba0dce9a2c3d05c32469ac9))
+
 ## [4.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v3.0.1...v4.0.0) (2025-06-22)
 
 
