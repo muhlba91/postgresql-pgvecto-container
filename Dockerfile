@@ -5,7 +5,7 @@ ARG CI_UPSTREAM_VERSION
 ARG VCHORD_VERSION=0.4.3
 
 # main container
-FROM ghcr.io/cloudnative-pg/postgresql:16.8-14@sha256:ed9bd4a26b152cf35f2c64e15f48126e3477ad222cfb04794562bdc999b8f0be
+FROM ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm@sha256:e6f87c0d1ce52cb450d3fd2701ddf6dbf4e1621f52aae9237c12705434c68b51
 
 ARG VCHORD_VERSION
 
