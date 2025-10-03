@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v5.1.0...v5.2.0) (2025-10-03)
+
+
+### Features
+
+* name images differently ([6e85db2](https://github.com/muhlba91/postgresql-pgvecto-container/commit/6e85db2472329c2342dc7f8d4935002294f731cd))
+
 ## [5.1.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v5.0.0...v5.1.0) (2025-10-03)
 
 
