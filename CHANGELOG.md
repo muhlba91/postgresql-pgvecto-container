@@ -1,5 +1,53 @@
 # Changelog
 
+## [5.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v4.0.0...v5.0.0) (2025-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* revert to postgres 16.8
+
+### Features
+
+* download vchord from github releases ([1c6ef9f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/1c6ef9fef998b29ab33bf349b89c3d0aacc84f37))
+* update renovate to use preset ([621baf4](https://github.com/muhlba91/postgresql-pgvecto-container/commit/621baf4019199a5730c4d0e2657410a5b73fdd32))
+
+
+### Miscellaneous Chores
+
+* **config:** migrate config renovate.json ([0feb144](https://github.com/muhlba91/postgresql-pgvecto-container/commit/0feb144dfc13b405bba1dfc1515dadf8dcb67a99))
+* **deps:** update actions/checkout action to v4.3.0 ([00a569d](https://github.com/muhlba91/postgresql-pgvecto-container/commit/00a569d435647f5796251fc6bced7acd66baad56))
+* **deps:** update actions/checkout action to v5 ([c7fb2ac](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c7fb2ac07d0a70f48f76d4c893cefa8e1caee90a))
+* **deps:** update actions/checkout digest to 08eba0b ([a91f474](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a91f4748b69433e3626520a94bb6165869b90a4f))
+* **deps:** update actions/dependency-review-action action to v4.7.2 ([ec17e75](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ec17e75e09ea8d2250e7c4f858a6d13019b95b75))
+* **deps:** update actions/dependency-review-action action to v4.7.3 ([aa29893](https://github.com/muhlba91/postgresql-pgvecto-container/commit/aa29893365be6eeddb02fabe1baecfc5464abba0))
+* **deps:** update actions/dependency-review-action action to v4.8.0 ([5df4caf](https://github.com/muhlba91/postgresql-pgvecto-container/commit/5df4caf9e3d2374c25326abc159a1e2ca7d58a28))
+* **deps:** update docker/login-action action to v3.5.0 ([ecc496f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ecc496f7035346f354556f77293ecfd5a6341b74))
+* **deps:** update docker/login-action action to v3.6.0 ([8c1348b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/8c1348bab44e9815e4a6b5b4096e5b224b67ead2))
+* **deps:** update github/codeql-action action to v3.29.1 ([c2cd4e7](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c2cd4e724fc369058b88de4ca806ed9180b9e53a))
+* **deps:** update github/codeql-action action to v3.29.10 ([4644a76](https://github.com/muhlba91/postgresql-pgvecto-container/commit/4644a763394ed789583cf0566447797c31b48e0b))
+* **deps:** update github/codeql-action action to v3.29.11 ([b5e3c01](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b5e3c01bd660e93cf93a2b3fa47f275b9bea5659))
+* **deps:** update github/codeql-action action to v3.29.2 ([e9baa9f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e9baa9f99a89a71d556b2ad5ba562a972c1d9df9))
+* **deps:** update github/codeql-action action to v3.29.3 ([cf5351e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/cf5351ec7ccdd4793cd8c2f062e0db78fc3bc794))
+* **deps:** update github/codeql-action action to v3.29.4 ([c87eb90](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c87eb90d969729339a68f3a6091748048203777f))
+* **deps:** update github/codeql-action action to v3.29.5 ([693c3ef](https://github.com/muhlba91/postgresql-pgvecto-container/commit/693c3ef1af480012234ce8f8f893448d652795e3))
+* **deps:** update github/codeql-action action to v3.29.7 ([9303a21](https://github.com/muhlba91/postgresql-pgvecto-container/commit/9303a216dffedfb5229de9c8d280446d381bbc49))
+* **deps:** update github/codeql-action action to v3.29.8 ([2bb7361](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2bb7361c72a834e3e2ae9d198f3c7c326103fa04))
+* **deps:** update github/codeql-action action to v3.29.9 ([0c82f9b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/0c82f9b364a078668f28117b01b0f17de22de9ef))
+* **deps:** update github/codeql-action action to v3.30.1 ([fbb9b6f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/fbb9b6f1efe3bd124bb571cbffcdb46c8dc9f4c9))
+* **deps:** update github/codeql-action action to v3.30.2 ([5df3a5f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/5df3a5f6d0019e3fb0bc75d8a1c4db07c668c95e))
+* **deps:** update github/codeql-action action to v3.30.3 ([3ea5d6e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3ea5d6e7cfc6d0fcfc4d96a87ebae445cc936690))
+* **deps:** update github/codeql-action action to v3.30.4 ([9c200e3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/9c200e3efc708c67e97bd1bd4863ae1fe1b8d3a7))
+* **deps:** update github/codeql-action action to v3.30.5 ([94626d3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/94626d389d9fef66223703fe63daeb9c7fe623ff))
+* **deps:** update github/codeql-action action to v3.30.6 ([c5b2670](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c5b2670044eea7c1cf6bb9937400f109b79462ee))
+* **deps:** update hadolint/hadolint-action action to v3.2.0 ([6ac3f2a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/6ac3f2a690753628f0c882201c2090c69fd49f88))
+* **deps:** update hadolint/hadolint-action action to v3.3.0 ([f24b3cb](https://github.com/muhlba91/postgresql-pgvecto-container/commit/f24b3cbab6df87129fe16f04c943aea31528c453))
+* **deps:** update ossf/scorecard-action action to v2.4.3 ([e9d1602](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e9d16023d887a32702e92e588af42ef92904d3cd))
+* **deps:** update pre-commit hook gitleaks/gitleaks to v8.28.0 ([0f190b1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/0f190b1e553ebe97931530c2e7ca8a330bded8a0))
+* **deps:** update step-security/harden-runner action to v2.12.2 ([008443e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/008443ee6ab1de9d27b8da720456c0b7e2abc98c))
+* **deps:** update step-security/harden-runner action to v2.13.0 ([414b1a3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/414b1a39a02c1a498ba0dce9a2c3d05c32469ac9))
+* **deps:** update step-security/harden-runner action to v2.13.1 ([869f34a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/869f34a673a9af7a43261d74d2014bb2eb143c46))
+
 ## [4.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v3.0.1...v4.0.0) (2025-06-22)
 
 
