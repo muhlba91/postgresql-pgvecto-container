@@ -67,8 +67,10 @@ jobs:
         id: from_tag
         run: |
           POSTGRESQL_IMAGE=$(cat Dockerfile | grep 'FROM ghcr.io/cloudnative-pg/postgresql:')
-          POSTGRESQL_FROM_TAG=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2 | cut -d'@' -f1)
-          echo "postgresql=${POSTGRESQL_FROM_TAG}" >> "$GITHUB_OUTPUT"
+          POSTGRESQL_VERSION=$(echo $POSTGRESQL_IMAGE | cut -d':' -f2 | cut -d'@' -f1 | cut -d'-' -f1)
+          echo "postgresql=${POSTGRESQL_VERSION}" >> "$GITHUB_OUTPUT"
+          POSTGRESQL_MAJOR_VERSION=$(echo $POSTGRESQL_VERSION | cut -d'.' -f1)
+          echo "postgresql_major=${POSTGRESQL_MAJOR_VERSION}" >> "$GITHUB_OUTPUT"
           VECTORCHORD_IMAGE=$(cat Dockerfile | grep -m 1 'ARG VCHORD_VERSION')
           VECTORCHORD_FROM_TAG=$(echo $VECTORCHORD_IMAGE | cut -d'=' -f2)
           echo "vchord=${VECTORCHORD_FROM_TAG}" >> "$GITHUB_OUTPUT"
@@ -86,4 +88,5 @@ jobs:
             CI_COMMIT_SHA=${{ github.sha }}
             CI_COMMIT_TAG=latest
             CI_UPSTREAM_VERSION=${{ steps.from_tag.outputs.postgresql }}-${{ steps.from_tag.outputs.vchord }}
+            POSTGRESQL_MAJOR_VERSION=${{ steps.from_tag.outputs.postgresql_major }}
             VCHORD_VERSION=${{ steps.from_tag.outputs.vchord }}
