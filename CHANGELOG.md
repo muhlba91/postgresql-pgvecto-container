@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.1.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v5.0.0...v5.1.0) (2025-10-03)
+
+
+### Features
+
+* update postgres to 16.10 ([1cddf30](https://github.com/muhlba91/postgresql-pgvecto-container/commit/1cddf3039eaedf126fb53b4246befb383c3ec6b7))
+
 ## [5.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v4.0.0...v5.0.0) (2025-10-03)
 
 
