@@ -1,13 +1,12 @@
+# main container
+FROM ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm@sha256:e6f87c0d1ce52cb450d3fd2701ddf6dbf4e1621f52aae9237c12705434c68b51
+
 ARG CI_COMMIT_TIMESTAMP
 ARG CI_COMMIT_SHA
 ARG CI_COMMIT_TAG
 ARG CI_UPSTREAM_VERSION
+ARG POSTGRESQL_MAJOR_VERSION=16
 ARG VCHORD_VERSION=0.4.3
-
-# main container
-FROM ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm@sha256:e6f87c0d1ce52cb450d3fd2701ddf6dbf4e1621f52aae9237c12705434c68b51
-
-ARG VCHORD_VERSION
 
 LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <daniel.muehlbachler@niftyside.com>"
 LABEL org.opencontainers.image.vendor="Daniel Muehlbachler-Pietrzykowski"
@@ -26,8 +25,8 @@ USER root
 # hadolint ignore=DL3008,DL3015,SC2046
 RUN apt-get update && \
   apt-get install -y --no-install-recommends wget ca-certificates && \
-  wget -q https://github.com/tensorchord/VectorChord/releases/download/${VCHORD_VERSION}/postgresql-16-vchord_${VCHORD_VERSION}-1_$(dpkg --print-architecture).deb -P /tmp && \
-  apt-get install -y /tmp/postgresql-16-vchord_${VCHORD_VERSION}-1_$(dpkg --print-architecture).deb && \
+  wget -q https://github.com/tensorchord/VectorChord/releases/download/${VCHORD_VERSION}/postgresql-${POSTGRESQL_MAJOR_VERSION}-vchord_${VCHORD_VERSION}-1_$(dpkg --print-architecture).deb -P /tmp && \
+  apt-get install -y /tmp/postgresql-${POSTGRESQL_MAJOR_VERSION}-vchord_${VCHORD_VERSION}-1_$(dpkg --print-architecture).deb && \
   apt-get remove -y wget ca-certificates && \
   apt-get purge -y --auto-remove && \
   rm -rf /tmp/* /var/lib/apt/lists/*
