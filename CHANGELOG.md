@@ -1,5 +1,24 @@
 # Changelog
 
+## [5.3.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v5.2.0...v5.3.0) (2025-10-23)
+
+
+### Features
+
+* upgrade vchord to v0.5.3 ([ef48a6c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ef48a6ce7dfaf177ca81f0271d24d1e3862738fb))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v4.8.1 ([0863f30](https://github.com/muhlba91/postgresql-pgvecto-container/commit/0863f30a015da4d7432309e797e84e5a574c221e))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm docker digest to 2232175 ([fe487bd](https://github.com/muhlba91/postgresql-pgvecto-container/commit/fe487bd9aa1c8e9d1914c5b8e7416b454a27b6e8))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm docker digest to a4d26d7 ([9b07a34](https://github.com/muhlba91/postgresql-pgvecto-container/commit/9b07a34b734db7a3b7d56fdfb5380013135f1219))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm docker digest to cac5cb8 ([868e1ee](https://github.com/muhlba91/postgresql-pgvecto-container/commit/868e1eeddc3cb0fcd186824dce000616d84d078b))
+* **deps:** update github/codeql-action action to v3.30.7 ([3a58f56](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3a58f56bbb2e458eba534956b5de1be54f8fe7cd))
+* **deps:** update github/codeql-action action to v4 ([07a8b06](https://github.com/muhlba91/postgresql-pgvecto-container/commit/07a8b06fa91b98c13680ab17fe96d8ccba2ac504))
+* **deps:** update github/codeql-action action to v4.30.8 ([32f5156](https://github.com/muhlba91/postgresql-pgvecto-container/commit/32f51567e92a6d6d3d2892c7309518151f653b48))
+* **deps:** update github/codeql-action action to v4.30.9 ([261940d](https://github.com/muhlba91/postgresql-pgvecto-container/commit/261940db5808fe9ab3922d9c31ba3d220a962114))
+
 ## [5.2.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v5.1.0...v5.2.0) (2025-10-03)
 
 
