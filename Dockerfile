@@ -1,11 +1,11 @@
 # main container
-FROM ghcr.io/cloudnative-pg/postgresql:16.10-standard-bookworm@sha256:223217517a3030076361a6c30f3c5c2035b905fade4df86b584cf229fc47deb5
+FROM ghcr.io/cloudnative-pg/postgresql:17.6-standard-bookworm@sha256:16209b08c84d195930a89dfe4520a8f55d260754ba052e182e3a0e12bebb8633
 
 ARG CI_COMMIT_TIMESTAMP
 ARG CI_COMMIT_SHA
 ARG CI_COMMIT_TAG
 ARG CI_UPSTREAM_VERSION
-ARG POSTGRESQL_MAJOR_VERSION=16
+ARG POSTGRESQL_MAJOR_VERSION=17
 ARG VCHORD_VERSION=0.5.3
 
 LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <daniel.muehlbachler@niftyside.com>"
