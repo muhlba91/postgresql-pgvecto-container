@@ -1,5 +1,13 @@
 # Changelog
 
+## [7.0.1](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.0.0...v7.0.1) (2025-10-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/upload-artifact action to v5 ([15afbb4](https://github.com/muhlba91/postgresql-pgvecto-container/commit/15afbb4447c22db5dce228e46ae463cf3a4de54d))
+* **deps:** update github/codeql-action action to v4.31.0 ([6ff6436](https://github.com/muhlba91/postgresql-pgvecto-container/commit/6ff643640dc7e5943a8977710274f25d5c182d8b))
+
 ## [7.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v6.0.0...v7.0.0) (2025-10-23)
 
 
