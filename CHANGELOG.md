@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.1.3](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.2...v7.1.3) (2025-12-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/upload-artifact action to v6 ([28dbf43](https://github.com/muhlba91/postgresql-pgvecto-container/commit/28dbf431e70ccb1e759508fa8491bc82f6e824b5))
+* **deps:** update docker/setup-buildx-action action to v3.12.0 ([3f96038](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3f960388327f0938594030830ae5bc6345b1fd78))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.1-standard-bookworm docker digest to 68966f4 ([b341d6d](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b341d6d32ee3db062191f539141281854059fa17))
+* **deps:** update github/codeql-action action to v4.31.8 ([d0ef41f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/d0ef41ff5434c7728369ae9d45e032332fcb9d75))
+* **deps:** update github/codeql-action action to v4.31.9 ([34826b6](https://github.com/muhlba91/postgresql-pgvecto-container/commit/34826b6d5e5abb1df32973c9fa2bcee37cc2969c))
+
 ## [7.1.2](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.1...v7.1.2) (2025-12-10)
 
 
