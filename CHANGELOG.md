@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.4](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.3...v7.1.4) (2025-12-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.1-standard-bookworm docker digest to b6c7234 ([d91baaa](https://github.com/muhlba91/postgresql-pgvecto-container/commit/d91baaae4e2e1e7fc664c98236052ab835bd9584))
+
 ## [7.1.3](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.2...v7.1.3) (2025-12-19)
 
 
