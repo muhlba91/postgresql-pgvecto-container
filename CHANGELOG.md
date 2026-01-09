@@ -1,5 +1,18 @@
 # Changelog
 
+## [7.1.5](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.4...v7.1.5) (2026-01-09)
+
+
+### Bug Fixes
+
+* **ci:** fix release-please ([5690d45](https://github.com/muhlba91/postgresql-pgvecto-container/commit/5690d459e2c3ee9d4694d7819dafb66276ef3fe9))
+
+
+### Miscellaneous Chores
+
+* **deps:** replace google-github-actions/release-please-action action with googleapis/release-please-action v4.1.1 ([5aa48cf](https://github.com/muhlba91/postgresql-pgvecto-container/commit/5aa48cf0f5798c651d752c420e6cea079f4793b7))
+* **deps:** update googleapis/release-please-action digest to f3969c0 ([f3edfb9](https://github.com/muhlba91/postgresql-pgvecto-container/commit/f3edfb9d06c45021b903add3ca17d6bfec5546dc))
+
 ## [7.1.4](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.3...v7.1.4) (2026-01-05)
 
 
