@@ -1,5 +1,19 @@
 # Changelog
 
+## [7.1.8](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.7...v7.1.8) (2026-02-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v4.8.3 ([0455216](https://github.com/muhlba91/postgresql-pgvecto-container/commit/045521696e2c58dc7e967789053d9cc74755e18b))
+* **deps:** update docker/build-push-action action to v6.19.0 ([c4ca6f1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c4ca6f102724d8608c98f3cd6d066c8a2a9af7e7))
+* **deps:** update docker/build-push-action action to v6.19.1 ([a854b6c](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a854b6ce509d3660993d8f57573f5061a741a8c6))
+* **deps:** update docker/build-push-action action to v6.19.2 ([f9c69b1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/f9c69b1d3976497d7ad13c15a1a00807ef26a491))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql docker tag to v18.2 ([e1ae85f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e1ae85fc06d68af02a7f1dad40f087af9db39ec1))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.2-standard-bookworm docker digest to 3f89ca0 ([a672906](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a672906674563ace1f3ecee6fc411ebd9be4d38c))
+* **deps:** update github/codeql-action action to v4.32.3 ([5624107](https://github.com/muhlba91/postgresql-pgvecto-container/commit/56241071d3c8b786ba5766348700981ed1257d07))
+* **deps:** update github/codeql-action action to v4.32.4 ([6e99040](https://github.com/muhlba91/postgresql-pgvecto-container/commit/6e990401cca411448452649a0f95a88194443476))
+
 ## [7.1.7](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.6...v7.1.7) (2026-02-09)
 
 
