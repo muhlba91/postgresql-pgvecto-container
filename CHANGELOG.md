@@ -1,5 +1,14 @@
 # Changelog
 
+## [7.1.9](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.8...v7.1.9) (2026-02-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/upload-artifact action to v7 ([14b3497](https://github.com/muhlba91/postgresql-pgvecto-container/commit/14b349778d772d6f3a23d94287acfaacab9ddc60))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql docker tag to v18.3 ([24b5231](https://github.com/muhlba91/postgresql-pgvecto-container/commit/24b5231617047c12163baf582cd36a14d63e4e5a))
+* **deps:** update step-security/harden-runner action to v2.15.0 ([2fc0c49](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2fc0c49a79c12eb4dbb02af397c64d05a652f058))
+
 ## [7.1.8](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.7...v7.1.8) (2026-02-23)
 
 
