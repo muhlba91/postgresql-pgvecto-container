@@ -1,5 +1,28 @@
 # Changelog
 
+## [7.1.12](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.11...v7.1.12) (2026-05-11)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v5 ([a4c9df7](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a4c9df776d29a92af98c2960de0d40927c3219f7))
+* **deps:** update actions/upload-artifact action to v7.0.1 ([963bead](https://github.com/muhlba91/postgresql-pgvecto-container/commit/963beadc88e4d36a80ae8023101f5cd5d48b779d))
+* **deps:** update docker/build-push-action action to v7.1.0 ([b8a970a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b8a970a2224192a45e3f6b086878d8f833edc464))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.3-standard-bookworm docker digest to 4765b84 ([72180a3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/72180a303c750f48ffda4308d7cae6bfce6b4f68))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.3-standard-bookworm docker digest to 7dafe75 ([4a6f89b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/4a6f89b47421af3ec44e960720f4b5f8921c3cb7))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.3-standard-bookworm docker digest to d26af59 ([61aa535](https://github.com/muhlba91/postgresql-pgvecto-container/commit/61aa535bdeaf193016359d1b84695e50460c1f12))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.3-standard-bookworm docker digest to fc6eaed ([71f50c3](https://github.com/muhlba91/postgresql-pgvecto-container/commit/71f50c340bdeb25eca79236efd992fe828b0625d))
+* **deps:** update github/codeql-action action to v4.35.2 ([4856a16](https://github.com/muhlba91/postgresql-pgvecto-container/commit/4856a16d54ed5c054cafbb79d8added1e8b042a5))
+* **deps:** update github/codeql-action action to v4.35.3 ([46c7e23](https://github.com/muhlba91/postgresql-pgvecto-container/commit/46c7e23176ef13f48a8f2811f364b285c1f7c886))
+* **deps:** update github/codeql-action action to v4.35.4 ([f9c1f11](https://github.com/muhlba91/postgresql-pgvecto-container/commit/f9c1f11f8192282c87dd805aebda0ab0c63d97ea))
+* **deps:** update googleapis/release-please-action action to v4.4.1 ([eae1377](https://github.com/muhlba91/postgresql-pgvecto-container/commit/eae137725bb0b305ccb367c9bce7c7539575ab61))
+* **deps:** update googleapis/release-please-action action to v5 ([37b64e1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/37b64e18e1ed3f7de8b5feab9ac61a117803d08f))
+* **deps:** update siderolabs/conform action to v0.1.0-alpha.31 ([3e95da8](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3e95da88ede99c7414980e6af0abeab2c4dbbdf6))
+* **deps:** update step-security/harden-runner action to v2.17.0 ([c83cbb6](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c83cbb6426eb4fdc528df0630c4afb198c3cc276))
+* **deps:** update step-security/harden-runner action to v2.18.0 ([381e36b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/381e36b2864d4a18c28e069f011314368a809843))
+* **deps:** update step-security/harden-runner action to v2.19.0 ([d4a48ab](https://github.com/muhlba91/postgresql-pgvecto-container/commit/d4a48abd0d28fe507a71282cbad7b994c0604a24))
+* **deps:** update step-security/harden-runner action to v2.19.1 ([da33b24](https://github.com/muhlba91/postgresql-pgvecto-container/commit/da33b242a5d2bd2fd54171818374b0008fbb791a))
+
 ## [7.1.11](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.10...v7.1.11) (2026-04-06)
 
 
