@@ -1,5 +1,5 @@
 # main container
-FROM ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm@sha256:99668ca66725131c777b00198c1b82750286c6ae620ce45f06f0955dc4173a7f
+FROM ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm@sha256:4f509244f04dfa58e880ae4f9eca3e904acecc56489094f474529c0ccc6abb8e
 
 ARG CI_COMMIT_TIMESTAMP
 ARG CI_COMMIT_SHA
