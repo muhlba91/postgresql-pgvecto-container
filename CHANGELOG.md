@@ -1,5 +1,23 @@
 # Changelog
 
+## [7.1.15](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.14...v7.1.15) (2026-07-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v7.0.1 ([172f938](https://github.com/muhlba91/postgresql-pgvecto-container/commit/172f938dcd839167c6957520d9a62103eb225426))
+* **deps:** update actions/checkout digest to 3d3c42e ([ff17d9e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/ff17d9e11f05f3cf64024094a027d6c107300a13))
+* **deps:** update docker/login-action action to v4.5.0 ([b4a6ddd](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b4a6ddd50b277d9d98b59b5fc0f66e4e3a41ade0))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm docker digest to 4f50924 ([d50a045](https://github.com/muhlba91/postgresql-pgvecto-container/commit/d50a04588b809a4bbf7dc36f5272bae24f83bf29))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm docker digest to 5febf55 ([e0b6cab](https://github.com/muhlba91/postgresql-pgvecto-container/commit/e0b6cab064ce2ac33c7cb67fedf07e51e5c13708))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm docker digest to 99668ca ([a4849ba](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a4849baf3cd5d17e19d41150a0f212df65d019d0))
+* **deps:** update github/codeql-action action to v4.37.0 ([945566a](https://github.com/muhlba91/postgresql-pgvecto-container/commit/945566a18d161e97a316c8c594c69b1123feadcf))
+* **deps:** update github/codeql-action action to v4.37.1 ([c620f57](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c620f57f05d909d3b63a7d371027fa4a97cd882c))
+* **deps:** update github/codeql-action action to v4.37.2 ([c16d3e1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/c16d3e129608cc4ddd9903816e0466f781e5b68e))
+* **deps:** update github/codeql-action action to v4.37.3 ([2092ef1](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2092ef1f78d07442657303df1df16df257e44b20))
+* **deps:** update ossf/scorecard-action action to v2.4.4 ([cf949af](https://github.com/muhlba91/postgresql-pgvecto-container/commit/cf949afe3354b6f158b9222283c90792617fb10b))
+* **deps:** update step-security/harden-runner action to v2.20.0 ([2c8089b](https://github.com/muhlba91/postgresql-pgvecto-container/commit/2c8089b98dc235cb5b2499cbe78c06ec13cfd11d))
+
 ## [7.1.14](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.13...v7.1.14) (2026-07-03)
 
 
