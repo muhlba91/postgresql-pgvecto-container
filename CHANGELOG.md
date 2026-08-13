@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.1.16](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.15...v7.1.16) (2026-08-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm docker digest to 3ab4190 ([4be8529](https://github.com/muhlba91/postgresql-pgvecto-container/commit/4be8529568fd08d48f3031b1edf95a6715a9e4e2))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.4-standard-bookworm docker digest to 702a5fd ([3095db6](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3095db6c5ec323f13138c05400951cae1b9896b3))
+* **deps:** update github/codeql-action action to v4.37.5 ([a9520b2](https://github.com/muhlba91/postgresql-pgvecto-container/commit/a9520b2481c6c591d26ac34c3c2a29f7421551b2))
+* **deps:** update github/codeql-action action to v4.37.6 ([25ac866](https://github.com/muhlba91/postgresql-pgvecto-container/commit/25ac866da1d031214a397e9d1c44c1312c5f24ed))
+* **deps:** update step-security/harden-runner action to v2.20.1 ([1770e56](https://github.com/muhlba91/postgresql-pgvecto-container/commit/1770e5679f374d6fe9cd43bfd33964c946532eb2))
+
 ## [7.1.15](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.14...v7.1.15) (2026-08-01)
 
 
