@@ -1,5 +1,13 @@
 # Changelog
 
+## [7.1.17](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.16...v7.1.17) (2026-08-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/cloudnative-pg/postgresql docker tag to v18.6 ([58a0090](https://github.com/muhlba91/postgresql-pgvecto-container/commit/58a0090f36b6ecf587b80face29ce1de1213e026))
+* **deps:** update github/codeql-action action to v4.37.7 ([70e211e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/70e211e035201b0258a4e869b4d9987af427ae35))
+
 ## [7.1.16](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.15...v7.1.16) (2026-08-13)
 
 
