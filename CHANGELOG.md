@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.20](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.19...v7.1.20) (2026-09-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update docker/build-push-action action to v7.4.0 ([9666465](https://github.com/muhlba91/postgresql-pgvecto-container/commit/9666465227a12a2bb4d2cfec41a74880d3bf7eed))
+
 ## [7.1.19](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.18...v7.1.19) (2026-09-14)
 
 
