@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.1.21](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.20...v7.1.21) (2026-10-08)
+
+
+### Miscellaneous Chores
+
+* **ci:** fix github workflow concurrency ([86300d4](https://github.com/muhlba91/postgresql-pgvecto-container/commit/86300d41d3ea456e6a689eed5a36c03637c46500))
+* **deps:** update actions/upload-artifact action to v7.0.2 ([3020d7e](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3020d7ee2e4da4668eca8871d4e0adf6fd97412b))
+* **deps:** update github/codeql-action action to v4.38.3 ([aee8376](https://github.com/muhlba91/postgresql-pgvecto-container/commit/aee8376f66f4d226c95dcd03dbecb23c4e03af6b))
+* **deps:** update step-security/harden-runner action to v2.22.0 ([b30efd4](https://github.com/muhlba91/postgresql-pgvecto-container/commit/b30efd47126d8c03f5a7569d084f82bcf072b74e))
+* **deps:** update step-security/harden-runner action to v2.22.1 ([27f9428](https://github.com/muhlba91/postgresql-pgvecto-container/commit/27f9428ea7eab65aedb8050a3dccad52156ce987))
+
 ## [7.1.20](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.19...v7.1.20) (2026-10-05)
 
 
