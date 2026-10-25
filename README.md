@@ -40,6 +40,12 @@ The tagging scheme is `<CLOUDNATIVEPG_POSTGRESQL_TAG>-<VECTORCHORD_TAG>[-<RELEAS
 
 ---
 
+## Development
+
+Tool versions (hadolint, shellcheck) are managed with [mise](https://mise.jdx.dev): run `mise trust` and `mise install` once, then use the usual commands (`mise exec -- hadolint Dockerfile`).
+
+---
+
 ## Contributing
 
 We welcome community contributions to this project.
