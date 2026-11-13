@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.22](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.21...v7.1.22) (2026-11-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/cloudnative-pg/postgresql docker tag to v18.7 ([05b9501](https://github.com/muhlba91/postgresql-pgvecto-container/commit/05b950177545166892f314545092a01195b64311))
+
 ## [7.1.21](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.20...v7.1.21) (2026-11-10)
 
 
