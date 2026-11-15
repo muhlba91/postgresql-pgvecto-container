@@ -8,7 +8,7 @@ ARG CI_UPSTREAM_VERSION
 ARG POSTGRESQL_MAJOR_VERSION=18
 ARG VCHORD_VERSION=0.5.3
 
-LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <daniel.muehlbachler@niftyside.com>"
+LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <dev@muehlbachler.io>"
 LABEL org.opencontainers.image.vendor="Daniel Muehlbachler-Pietrzykowski"
 LABEL org.opencontainers.image.source="https://github.com/muhlba91/postgresql-pgvecto-container"
 LABEL org.opencontainers.image.created="${CI_COMMIT_TIMESTAMP}"
