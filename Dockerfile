@@ -6,7 +6,7 @@ ARG CI_COMMIT_SHA
 ARG CI_COMMIT_TAG
 ARG CI_UPSTREAM_VERSION
 ARG POSTGRESQL_MAJOR_VERSION=18
-ARG VCHORD_VERSION=0.5.3
+ARG VCHORD_VERSION=1.1.1
 
 LABEL org.opencontainers.image.authors="Daniel Muehlbachler-Pietrzykowski <dev@muehlbachler.io>"
 LABEL org.opencontainers.image.vendor="Daniel Muehlbachler-Pietrzykowski"
