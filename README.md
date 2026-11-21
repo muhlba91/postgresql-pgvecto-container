@@ -14,7 +14,7 @@ A container integrating [VectorChord](https://github.com/tensorchord/VectorChord
 > [!WARNING]
 > **This container is heavily based on personal needs!**
 >
-> The chosen upstream versions follow the [Immich requirements](https://github.com/immich-app/immich/blob/main/docker/docker-compose.yml).
+> The chosen upstream versions follow the [Immich requirements](https://docs.immich.app/administration/postgres-standalone#prerequisites).
 
 > [!WARNING]
 > **This container is being migrated from pgvecto.rs to VectorChord!**
@@ -29,7 +29,7 @@ Instead of using the upstream [CloudNativePG container](https://github.com/cloud
 
 ### Container Tags
 
-The container images are tagged according to CloudNativePG's [image tag requirements](https://cloudnative-pg.io/documentation/1.23/container_images/#image-tag-requirements_1).
+The container images are tagged according to CloudNativePG's [image tag requirements](https://cloudnative-pg.io/docs/1.30/container_images#image-tag-requirements).
 Additionally, `latest` and `<GIT_COMMIT_SHA>` tags are created which are **not** compatible with CloudNativePG!
 
 The tagging scheme is `<CLOUDNATIVEPG_POSTGRESQL_TAG>-<VECTORCHORD_TAG>[-<RELEASE_TAG>]` with:
