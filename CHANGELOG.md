@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.2.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.22...v7.2.0) (2026-11-21)
+
+
+### Features
+
+* upgrade upstream image from bookworm to trixie ([05ae384](https://github.com/muhlba91/postgresql-pgvecto-container/commit/05ae38489539f09d7447c614849f89466ff5da67))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/dependency-review-action action to v5.0.1 ([14ea800](https://github.com/muhlba91/postgresql-pgvecto-container/commit/14ea800f1fd66793073506860fb9ff11ec3672c5))
+* **deps:** update ghcr.io/cloudnative-pg/postgresql:18.7-standard-bookworm docker digest to 2f690a4 ([203729f](https://github.com/muhlba91/postgresql-pgvecto-container/commit/203729f0556a81bc70bc4e8216f4859a96fcc1a9))
+* **deps:** update github/codeql-action action to v4.39.4 ([3bbd394](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3bbd394068429ae264face039fc1531260f5932f))
+* **deps:** update ossf/scorecard-action action to v2.6.0 ([09794aa](https://github.com/muhlba91/postgresql-pgvecto-container/commit/09794aa60756534d018052fb1c8402d2937327b6))
+* **deps:** update step-security/harden-runner action to v2.23.0 ([3829f9d](https://github.com/muhlba91/postgresql-pgvecto-container/commit/3829f9d05fe8c1ea3385bf07d7cc450e81cd7d55))
+
 ## [7.1.22](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.21...v7.1.22) (2026-11-16)
 
 
