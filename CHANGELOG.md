@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.0.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.2.0...v8.0.0) (2026-11-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* vectorchord upgrade to 1.x.x
+
+### Features
+
+* update vectorchord to 1.1.1 ([08a3e66](https://github.com/muhlba91/postgresql-pgvecto-container/commit/08a3e664994ad04e54a59fa3e7297b2f2029f36b))
+
 ## [7.2.0](https://github.com/muhlba91/postgresql-pgvecto-container/compare/v7.1.22...v7.2.0) (2026-11-21)
 
 
