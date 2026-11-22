@@ -1,5 +1,10 @@
 # PostgreSQL with VectorChord Container
 
+> [!WARNING]
+> **This repository is deprecated!**
+>
+> Use the CloudNativePG extension image [postgresql-vchord-extension-container](https://github.com/muhlba91/postgresql-vchord-extension-container) instead.
+
 [![](https://img.shields.io/github/license/muhlba91/postgresql-pgvecto-container?style=for-the-badge)](LICENSE)
 [![](https://img.shields.io/github/actions/workflow/status/muhlba91/postgresql-pgvecto-container/release.yml?style=for-the-badge)](https://github.com/muhlba91/postgresql-pgvecto-container/actions/workflows/release.yml)
 [![](https://api.scorecard.dev/projects/github.com/muhlba91/postgresql-pgvecto-container/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/postgresql-pgvecto-container)
